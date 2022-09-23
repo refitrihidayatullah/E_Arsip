@@ -6,19 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E_Arsip</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <style>
-        footer {
-            width: 100%;
-            height: 50px;
-            position: absolute;
-            bottom: 0px;
-        }
-    </style>
+
+
 </head>
 
 <body>
     <!-- nav first -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <div class="container">
             <a class="navbar-brand" href="?halaman=beranda">E-Arsip</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,4 +38,4 @@
     </nav>
     <!-- end nav -->
 
-    <div class="container">
+    <div class="container mb-5">

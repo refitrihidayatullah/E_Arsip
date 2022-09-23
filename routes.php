@@ -7,7 +7,11 @@ if ($halaman == "departement") {
 } elseif ($halaman == "pengirim_surat") {
     include("views/v_pengirim_surat.php");
 } elseif ($halaman == "arsip_surat") {
-    include("views/v_arsip_surat.php");
+    if (@$_GET['hal'] == "tambaharsip" || @$_GET['hal'] == "edit" || @$_GET['hal'] == "delete") {
+        include("views/arsip/v_form_arsip.php");
+    } else {
+        include("views/arsip/v_arsip_surat.php");
+    }
 } else {
     include("views/v_beranda.php");
 }
