@@ -12,6 +12,9 @@ if ($halaman == "departement") {
     } else {
         include("views/arsip/v_arsip_surat.php");
     }
-} else {
+} elseif ($halaman == "beranda") {
     include("views/v_beranda.php");
+} else {
+    // include("views/v_page_404.php");
+    header("location:login.php");
 }

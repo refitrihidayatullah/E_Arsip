@@ -47,7 +47,7 @@
                                 echo "-";
                             <?php } else { ?>
 
-                                <a href="file/<?= $data['file'] ?>" target="$_blank">lihat</a>
+                                <a class="btn btn-sm btn-info" href="file/<?= $data['file'] ?>" target="$_blank">lihat</a>
                             <?php
                             }
                             ?>
